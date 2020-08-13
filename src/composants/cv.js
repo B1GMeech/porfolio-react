@@ -8,7 +8,7 @@ class Cv extends React.Component{
         return(
             <div className='cv-body'>
             <br></br><h1>Télécharger CV 🧾 </h1>
-            <br></br><img src ="cv.png" alt="CV" className='cv-style'/>
+            <br></br><img src ="resume.png" alt="CV" className='cv-style'/>
             <hr /><a href="CV-1.pdf" download="Resume">Download Resume</a></div>
         )
     }

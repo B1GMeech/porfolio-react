@@ -42,14 +42,26 @@ class Projet extends React.Component{
             )
         } else if (this.state.activeTab === 1){
             return(
-                <h1>Projet HTML/CSS</h1>
-            )
+                    <div>
+                             <center> <h1> Projets HTML CSS </h1> </center>
+                             
+                    </div>
+                  )
         } else if (this.state.activeTab === 2){
-            return(
-                <h1> Projets Wordpress </h1>
-            )
+            return( 
+                    <div>
+                        <center> <h1> Projets Wordpress </h1> </center>
+                        <center><video src="fema-visite.mp4" type="video/mp4" width="500" height="280" controls></video>
+                                    <source src="fema-viste.webm" type="video/webm"></source></center>
+                        </div>
+
+                                
+                    
+                
+                
+                  )  
         }  
-    }
+     }
     render(){
         return(
             <div>
@@ -65,4 +77,5 @@ class Projet extends React.Component{
         )
     }
 }
+
 export default Projet;
